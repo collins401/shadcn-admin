@@ -1,0 +1,23 @@
+export default {
+  printWidth: 100,
+  tabWidth: 2,
+  useTabs: false,
+  semi: false,
+  singleQuote: true,
+  quoteProps: 'as-needed',
+  jsxSingleQuote: false,
+  trailingComma: 'none',
+  bracketSpacing: true,
+  bracketSameLine: false,
+  arrowParens: 'avoid',
+  requirePragma: false,
+  insertPragma: false,
+  proseWrap: 'preserve',
+  htmlWhitespaceSensitivity: 'css',
+  endOfLine: 'auto',
+  embeddedLanguageFormatting: 'auto',
+  plugins: ['prettier-plugin-tailwindcss'],
+  // tailwindConfig: './tailwind.config.ts',
+  tailwindStylesheet: './src/app.css',
+  tailwindFunctions: ['clsx']
+}
